@@ -6,7 +6,8 @@ public class Main {
         Base base = null;
     }
 
-    public static void testMethod(){
+    public static void testMethod(Base base){
+        System.out.println(base.isFlag());
         System.out.println("testMethod");
     }
 }
