@@ -6,11 +6,12 @@ public class Main {
         Base base = null;
     }
 
-    public static void testMethod4NonEnsure(Base base, Base base2){
-        if (base2 == null){
-            System.out.println("base2 is null");
+    public static void testMethod4NonEnsure(Base base, Base base2, Base base3){
+        if (base3 == null){
+            System.out.println("base3 is null");
+            return;
         }
-        System.out.println(base2.isFlag());
+        System.out.println(base3.isFlag());
         System.out.println("testMethod");
     }
 }
